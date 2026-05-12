@@ -1,20 +1,16 @@
 
 ---
 name: actions-fundamental
-
 on:
   push:
-    branches: [main]
-      
+    branches:
+      - main
 jobs:
-  
   greet:
-  
     runs-on: ubuntu-latest
-  
-  steps:
-  
-    - name: say hello to users
-       run: echo "Hello Brothers"
-    - name: hello to username
-       run: echo "Hello $USER" 
+    steps:
+      - name: say hello to users
+        run: echo "Hello Brothers"
+      - name: hello to username
+        run: echo "Hello $USER"
+        
