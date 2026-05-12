@@ -1,6 +1,7 @@
 
 ---
 name: actions-fundamental
+
 on:
   push:
     branches: [main]
