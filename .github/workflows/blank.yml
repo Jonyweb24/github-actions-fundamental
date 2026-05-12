@@ -1,0 +1,15 @@
+name:github actions fundamental
+    on:
+      push:
+          branches:[main]
+    jobs:
+     greet:
+        runs-on:ubuntu-latest
+
+        steps:
+         - name: say hello to users
+           run: echo "Hello Brothers"
+
+          - name: hello to username
+            run: echo "Hello $USER"
+            
