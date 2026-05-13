@@ -20,7 +20,7 @@ build:
 
 test:
   runs-on: ubuntu-latest
- steps:
+  steps:
     - name: Test the container
       run: echo "Testing the container"
     
